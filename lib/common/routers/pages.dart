@@ -1,4 +1,5 @@
 import 'package:flutter_woo_commerce/pages/login/index.dart';
+import 'package:flutter_woo_commerce/pages/splash/index.dart';
 import 'package:get/get.dart';
 
 class RoutePages {
@@ -8,6 +9,10 @@ class RoutePages {
       name: "/",
       page: () => const LoginPage(),
       binding: LoginBinding(),
+    ),
+    GetPage(
+      name: "/splash",
+      page: () => const SplashPage(),
     ),
   ];
 }
