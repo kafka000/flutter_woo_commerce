@@ -23,6 +23,12 @@ class MyApp extends StatelessWidget {
       initialRoute: RouteNames.systemSplash,
       getPages: RoutePages.list,
       navigatorObservers: [RoutePages.observer],
+      // 本地化
+      translations: Translation(), // 词典
+      localizationsDelegates: Translation.localizationsDelegates, // 代理
+      supportedLocales: Translation.supportedLocales, // 支持的语言种类
+      locale: ConfigService.to.locale, // 当前语言种类
+      fallbackLocale: Translation.fallbackLocale, // 默认语言种类
     );
   }
 }
@@ -98,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
         ),
