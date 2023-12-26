@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_woo_commerce/common/index.dart';
 import 'package:get/get.dart';
+import 'global.dart';
 
-void main() {
+Future<void> main() async {
+  await Global.init();
   runApp(const MyApp());
 }
 
