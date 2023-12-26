@@ -12,5 +12,7 @@ class Global {
     await Future.wait([
       Get.putAsync<ConfigService>(() async => await ConfigService().init()),
     ]).whenComplete(() {});
+    // 网络初始化
+    Get.put<WPHttpService>(WPHttpService());
   }
 }
