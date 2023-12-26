@@ -18,8 +18,9 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       // 路由
-      initialRoute: "/",
+      initialRoute: RouteNames.systemSplash,
       getPages: RoutePages.list,
+      navigatorObservers: [RoutePages.observer],
     );
   }
 }
