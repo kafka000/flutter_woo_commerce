@@ -41,6 +41,7 @@ dependencies:
   dio: ^4.0.0
   flutter_svg: ^2.0.9
   badges: ^2.0.0
+  extended_image: ^8.1.1
 
 dev_dependencies:
   flutter_test:
