@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_woo_commerce/pages/styles/inputs/index.dart';
 import 'package:get/get.dart';
 import '../../pages/index.dart';
 import 'index.dart';
@@ -104,6 +105,10 @@ class RoutePages {
     GetPage(
       name: RouteNames.stylesIcon,
       page: () => const IconPage(),
+    ),
+    GetPage(
+      name: RouteNames.stylesInputs,
+      page: () => const InputsPage(),
     ),
     GetPage(
       name: RouteNames.stylesImage,

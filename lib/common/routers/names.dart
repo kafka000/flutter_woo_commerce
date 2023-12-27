@@ -25,6 +25,7 @@ class RouteNames {
   static const stylesGroupList = '/styles_group_list';
   static const stylesIcon = '/styles_icon';
   static const stylesImage = '/styles_image';
+  static const stylesInputs = '/styles_inputs';
   static const stylesOther = '/styles_other';
   static const stylesStylesIndex = '/styles_styles_index';
   static const stylesText = '/styles_text';
