@@ -46,7 +46,7 @@ dev_dependencies:
   # lint
   flutter_lints: ^1.0.0
   flutter_launcher_icons_maker: ^0.10.2
-# app 图标
+  # app 图标
 flutter_icons:
   android: true
   ios: true
@@ -57,6 +57,18 @@ flutter_icons:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
+  # font
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat/Roboto-Bold.ttf
+          weight: 700
 # The following section is specific to Flutter.
 flutter:
 
