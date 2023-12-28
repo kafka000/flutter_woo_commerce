@@ -43,6 +43,7 @@ dependencies:
   badges: ^2.0.0
   extended_image: ^8.1.1
   flutter_screenutil: ^5.9.0
+  flutter_native_splash: ^2.2.16
 
 dev_dependencies:
   flutter_test:
@@ -57,6 +58,9 @@ flutter_icons:
   ios: true
   image_path: "assets/icons/sheep.png"
 
+flutter_native_splash:
+  color: "#ffffff"
+  image: "assets/icons/sheep.png"
 
   # font
   fonts:
