@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
               : AppTheme.light,
           debugShowCheckedModeBanner: false,
           // 路由
-          initialRoute: RouteNames.systemSplash,
+          initialRoute: RouteNames.stylesStylesIndex,
           getPages: RoutePages.list,
           navigatorObservers: [RoutePages.observer],
           // 本地化
